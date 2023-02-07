@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 172, in script
+    Neo "你在学校不要来找我，我们什么关系都没有，还有我不喜欢你这种类型的人，懂吗？别想借机缠上我。"
+Exception: Sayer 'Neo' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 172, in script
+    Neo "你在学校不要来找我，我们什么关系都没有，还有我不喜欢你这种类型的人，懂吗？别想借机缠上我。"
+  File "renpy/ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "renpy/ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'Neo' is not defined.
+
+Windows-10-10.0.19041 AMD64
+Ren'Py 7.5.1.22070801
+neolouis 1.0
+Tue Feb  7 01:41:00 2023

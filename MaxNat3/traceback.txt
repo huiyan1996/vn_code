@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 142, in script
+    Max "那就请你做我的男朋友好吗？让我来管你！你不要再和别人那么亲近了！"
+Exception: Sayer 'Max' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 142, in script
+    Max "那就请你做我的男朋友好吗？让我来管你！你不要再和别人那么亲近了！"
+  File "renpy/ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "renpy/ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'Max' is not defined.
+
+Windows-10-10.0.19041 AMD64
+Ren'Py 7.5.1.22070801
+MaxNat3 1.0
+Thu Jul 14 23:50:05 2022

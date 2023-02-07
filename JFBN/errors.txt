@@ -1,0 +1,11 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/options.rpy", line 151: invalid syntax
+    default preferences.text_cps = 20
+                       ^
+    
+
+Ren'Py Version: Ren'Py 7.5.1.22070801
+Thu Dec 22 00:27:19 2022

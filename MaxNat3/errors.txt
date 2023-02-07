@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 32: end of line expected.
+    new "Nat，你确定要这样吗？Max会生气的吧" + pts
+                               ^
+
+Ren'Py Version: Ren'Py 7.5.1.22070801
+Thu Nov 17 00:45:54 2022
