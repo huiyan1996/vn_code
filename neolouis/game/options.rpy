@@ -11,7 +11,7 @@
 ##
 ## 带有 _() 的字符串表示其可被翻译。
 
-define config.name = _("neolouis")
+define config.name = _("怦然心动")
 
 
 ## 决定上面给出的标题是否显示在标题界面屏幕。设置为 False 来隐藏标题。
@@ -139,7 +139,7 @@ define config.save_directory = "neolouis-1675702328"
 ##
 ## 在任务栏或 Dock 上显示的图标。
 
-define config.window_icon = "gui/window_icon.png"
+define config.window_icon = "gui/icon.jpg"
 
 
 ## 构建配置 ########################################################################
