@@ -349,7 +349,7 @@ define gui.nvl_height = 173
 
 ## 当 gui.nvl_height 为 None 时，NVL 模式条目之间的间距，以及 NVL 模式条目和 NVL
 ## 模式菜单之间的间距。
-define gui.nvl_spacing = 15
+define gui.nvl_spacing = 10
 
 ## 所指定叙述角色的标签的坐标、宽度和对齐方式。
 define gui.nvl_name_xpos = 645
