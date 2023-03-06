@@ -12,6 +12,8 @@ label endLabel:
 
     if pts >= 5:
         "触发结局《男朋友》"
+
+        jump extraStory
     else:
         "触发结局《试用期》"
 
